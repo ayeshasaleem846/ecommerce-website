@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gul Ahmad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="header">
+        <a href="#"><img src="https://www.citysearch.pk/UF/Companies/9724/ideas-by-gul-ahmed-logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag"><a class="active" href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a></li>
+                <a href="#" id="close"><span class="material-symbols-outlined">close_small</span></a>
+            </ul>
+        </div>
+         <div id="mobile">
+         <a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+        <span id="bar" class="material-symbols-outlined">menu</span>
+ </div>
+    </div>
+</header>
+<section id="page" class="about-header">
+    <h2>#lets's_cart</h2>
+    <p>Leave a nassage.We love to here from you</p>
+</section>
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Images</td>
+                <td>Products</td>
+                <td>Price</td>
+                <td>Quality</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><span class="material-symbols-outlined">close_small</span></a></td>
+                <td><img src="gulahmad1.jpg" alt=""></td>
+                <td>Cotton suit with printed dopatta </td>
+                <td>PKR 2517</td>
+                <td><input type="number" value="1"></td>
+                <td>PKR 2517</td>
+            </tr>
+            <tr>
+                <td><a href="#"><span class="material-symbols-outlined">close_small</span></a></td>
+                <td><img src="gulahmad5.jpg" alt=""></td>
+                <td>Cotton suit with printed dopatta </td>
+                <td>PKR 9500</td>
+                <td><input type="number" value="1"></td>
+                <td>PKR 9500</td>
+            </tr>
+            <tr>
+                <td><a href="#"><span class="material-symbols-outlined">close_small</span></a></td>
+                <td><img src="gulahmad2.jpg" alt=""></td>
+                <td>Cotton suit with printed dopatta </td>
+                <td>PKR 6560</td>
+                <td><input type="number" value="1"></td>
+                <td>PKR 6560</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section id="cart-add" class="section-p1">
+    <div class="cuppon">
+        <h3>Apply Cuppon</h3>
+        <div>
+        <input type="text" placeholder="Enter code">
+        <button>Apply</button>
+    </div>
+    </div>
+
+    <div id="subtotal">
+        <h3>Cart totals</h3>
+        <table>
+            <tr>
+                <td>cart subtotal</td>
+                <td>PKR 10,000</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+           <tr>
+                <td><strong>Total </strong></td>
+                <td><strong>PKR 10,000</strong></td>
+           </tr>
+        </table>
+        <button>Proceed To Checkout</button>
+    </div>
+</section>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="https://www.citysearch.pk/UF/Companies/9724/ideas-by-gul-ahmed-logo.png" alt="" class="logo logo1">
+            <h4>Contact</h4>
+            <p><strong>Adress:</strong> Lahore Feroz pur road </p>
+              <p><strong>Phone:</strong> +1 92 5478932</p>
+                <p><strong>Hours:</strong> 24/7 </p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+
+                    </div>
+                </div>
+ </div>
+ <div class="col">
+    <h4>About</h4>
+    <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+                <a href="#">Terms & conditions</a>
+                    <a href="#">Contact Us</a>
+ </div>
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign in</a>
+        <a href="#"> Veiw cart</a>
+            <a href="#">My wishlist</a>
+                <a href="#">Track My Order</a>
+                    <a href="#">Help</a>
+ </div>
+   <div class="copyright">
+    <p>© Gul Ahmed Textile Mills Limited.</p>
+   </div>
+    </footer>
+
+
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+</script> 
+
+    <script src="my.js"></script>
+</body>
+</html>
